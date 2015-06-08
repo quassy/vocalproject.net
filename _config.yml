@@ -48,7 +48,7 @@ baseurl: "/vocalproject.net"
 
 markdown: kramdown
 highlighter: pygments
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:i_month/:i_day/:title
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
