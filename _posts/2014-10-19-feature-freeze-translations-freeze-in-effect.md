@@ -2,6 +2,8 @@
 title: Feature Freeze, Translations Freeze In Effect
 ---
 
+![]({{ site.baseurl}}/images/posts/2014-11-24-snowcone-pixar.png)
+
 "Snowcone?" (Pixar)
 
 Vocal is fast approaching its first stable release, and an important step on the path to 1.0 is the feature and translations freeze. This freeze gives translators time to translate the text inside Vocal into multiple languages with a guarantee that the text won't change before the release. It also marks the end of new features, meaning all development will be focused on fixing bugs and making the experience as stable as possible. Only in situations where new features absolutely must be added or strings must be altered will we do so.
