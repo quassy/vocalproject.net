@@ -12,7 +12,7 @@ That was a year ago today.
 
 ![]({{ site.baseurl }}/images/posts/2015-01-29-launchpad.png)
 
-So what's ahead for Vocal? For now, let's just say we have huge plans for version 2.0. I think you will absolutely love it. More information about that will come in the next few months. But for now, we're focused on polishing up 1.0 and getting a stable release out to users. Right now there are 6 confirmed bugs remaining, as well as some additional issues that need to be given a closer look, and some code cleanup before it's ready for the masses. We should have a release candidate available before too long, with the official stable release not far behind.
+So what's ahead for Vocal? For now, let's just say we have **huge** plans for version 2.0. I think you will absolutely love it. More information about that will come in the next few months. But for now, we're focused on polishing up 1.0 and getting a stable release out to users. Right now there are 6 confirmed bugs remaining, as well as some additional issues that need to be given a closer look, and some code cleanup before it's ready for the masses. We should have a release candidate available before too long, with the official stable release not far behind.
 
 Thanks for an amazing year! There has been a ton of support and feedback, and it all has been greatly appreciated. Here's to an even bigger, crazier year two.
 

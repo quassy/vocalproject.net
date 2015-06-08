@@ -9,14 +9,14 @@ layout: default
     <article class="post">
 
       <header>
-        <a href="{{site.baseurl}}{{post.permalink}}">
+        <a href="{{ site.baseurl }}{{ post.url }}">
           <span class="date">{{ post.date | date: "%e %B %Y" }}</span>
           <h1>{{ post.title }}</h1>
         </a>
       </header>
 
       <main class="entry">
-        {{ content }}
+        {{ post.content }}
       </main>
 
       <footer>
