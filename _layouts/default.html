@@ -2,21 +2,12 @@
 <html>
 <head>
   {% include meta.html %}
-
-  <title>
-    {% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}
-  </title>
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.min.css" />
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 </head>
-
 <body>
 
   <header id="header">
-    <a href="{{ site.baseurl }}/" title="{{ site.description }}"><h1 id="title">{{ site.name }}</h1></a>
+    <h1><a href="{{ site.baseurl }}/" title="{{ site.description }}">{{ site.name }}</a></h1>
     <nav>
       <a href="{{ site.baseurl }}/">Home</a>
       <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>
@@ -24,7 +15,7 @@
       <a href="{{ site.baseurl }}/get-involved/">Get Involved</a>
       <a href="{{ site.baseurl }}/documentation/">Documentation</a>
       <a href="{{ site.baseurl }}/donate/">Donate</a>
-      <a href="{{ site.baseurl }}/download/" class="download">Download</a>
+      <a href="{{ site.baseurl }}/download/"><span class="action">Download</span></a>
     </nav>
   </header>
 

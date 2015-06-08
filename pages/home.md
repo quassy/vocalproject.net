@@ -1,5 +1,4 @@
 ---
-title: Starter Pack
 permalink: /
 ---
 

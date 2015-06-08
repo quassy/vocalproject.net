@@ -1,11 +1,12 @@
 // Base
 html {
   background: #fff;
-  font: 1em/2em $font_body;
+  font: 1.125em/2.25em $font_body;
   color: #1a1a1a;
 }
 body {
-  font-size: 1.125rem;
+  font-size: 1em;
+  line-height: 2em;
 }
 
 // Headings
@@ -20,8 +21,15 @@ h1, h2, h3, h4, h5, h6,
 
   color: #1a1a1a;
 
-  margin: 15px 0;
+  margin: 2rem 0;
   padding: 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   a {
     color: inherit;
