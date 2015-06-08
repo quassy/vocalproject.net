@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include meta.html %}
+
+  <title>
+    {% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.min.css" />
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+</head>
+
+<body>
+
+  <header id="header">
+    <a href="{{ site.baseurl }}/" title="{{ site.description }}"><h1 id="title">{{ site.name }}</h1></a>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>
+      <a href="{{ site.baseurl }}/blog/">Blog</a>
+      <a href="{{ site.baseurl }}/get-involved/">Get Involved</a>
+      <a href="{{ site.baseurl }}/documentation">Documentation</a>
+      <a href="{{ site.baseurl }}/donate/">Donate</a>
+      <a href="{{ site.baseurl }}/download/" class="download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer id="footer">
+    {% include svg-icons.html %}
+  </footer>
+
+  {% include analytics.html %}
+  {% include analytics-piwik.html %}
+</body>
+</html>

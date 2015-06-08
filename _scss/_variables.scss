@@ -1,0 +1,29 @@
+// Solarize colors
+// http://ethanschoonover.com/solarized
+$base03:    #002b36;
+$base02:    #073642; $base02x: #30525C;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5; $base2x: #C1C5BB;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+// Custom colors
+$color_header: #fff;
+$background_header: #603461;
+
+// Fonts
+// needs webfonts
+$font_header: "Proxima Nova", "Open Sans" sans-serif;
+$font_heading: "Open Sans", sans-serif;
+$font_body: "Droid Serif", serif;
+$font_code: "Source Code Pro", monospace;

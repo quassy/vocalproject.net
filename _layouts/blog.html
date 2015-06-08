@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="posts">
+
+<article class="post">
+
+    <header>
+      <a href="{{site.baseurl}}{{post.permalink}}">
+        <span class="date">{{ post.date | date: "%e %B %Y" }}</span>
+        <h1>{{ post.title }}</h1>
+      </a>
+    </header>
+
+    <main class="entry">
+      {{ content }}
+    </main>
+
+    <footer>
+      {% if post.comments != false %}
+        {% include disqus.html disqus_identifier=post.disqus_identifier %}
+      {% endif %}
+      <!-- Link to newer and older post here -->
+    </footer>
+
+  </article>
+
+  {% for post in site.posts %}
+
+    {% include loop.html %}
+
+  {% endfor %}
+
+</div>
