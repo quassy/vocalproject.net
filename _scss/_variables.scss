@@ -19,17 +19,24 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-// Custom colors
-$color_header: #fff;
-$color_link: #622828;
-$color_subtle: rgba(26, 26, 26, .4);
-$color_body: rgba(26, 26, 26, .7);
-$color_heading: rgba(26, 26, 26, .9);
+// Theme colors
+$color_header: rgba(255, 255, 255, .9);
 $background_header: #603461;
+
+$color_heading: rgba(26, 26, 26, .9);
+
+$color_body: rgba(26, 26, 26, .7);
+$background_body: #fff;
+
+$color_link: #622828;
+
+$color_subtle: rgba(26, 26, 26, .4);
+
+$color_borders: rgba(26, 26, 26, 0.2);
 
 // Fonts
 // needs webfonts
-$font_header: "Proxima Nova", "Open Sans" sans-serif;
+$font_header: "Open Sans" sans-serif;
 $font_heading: "Open Sans", sans-serif;
 $font_body: "Droid Serif", serif;
 $font_code: "Source Code Pro", monospace;

@@ -21,9 +21,11 @@ sudo apt-get update &&
 sudo apt-get install vocal
 ```
 
-# Other*
+## Other*
 
-## Ubuntu-based Systems
+*\* GTK 3.14 or higher is generally required*
+
+### Ubuntu-based Systems
 
 ![]({{ site.baseurl }}/images/download/ubuntu.png)
 
@@ -35,7 +37,7 @@ You will also need to install the Granite framework:
 
 `[...]`
 
-## Fedora (And Other Distros Using RPM Packages)
+### Fedora (And Other Distros Using RPM Packages)
 
 ![]({{ site.baseurl }}/images/download/fedora.png)
 
@@ -47,13 +49,13 @@ You will also need to install the Granite framework:
 
 `[...]`
 
-## Arch
+### Arch
 
 ![]({{ site.baseurl }}/images/download/arch.png)
 
 Vocal 1.0 is already available in the Arch User Repository (AUR)! For more information, please visit [this link for details of the package](https://aur.archlinux.org/packages/vocal-stable/).
 
-# Source
+## Source
 
 ![]({{ site.baseurl }}/images/download/source.png)
 
@@ -68,7 +70,3 @@ sudo apt-add-repository ppa:nathandyer/vocal-daily &&
 sudo apt-get update &&
 sudo apt-get install vocal
 ```
-
----
-
-*\* GTK 3.14 or higher required*

@@ -2,16 +2,19 @@
 
 // Structure
 #header {
-  color: #fff;
-  background: #603461;
-  font-size: 13px;
-  font-family: $font_header;
+  color: $color_header;
+  background: $background_header;;
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
   nav {
     display: flex;
@@ -27,21 +30,34 @@
     padding: 20px;
     margin: 0;
     font-weight: 600;
+    font-family: $font_header;
     display: block;
   }
+
   h1 a {
     font-size: 20px;
     letter-spacing: 6px;
     color: #fff;
   }
+
   nav a {
     font-size: 13px;
-    letter-spacing: 2px;
-    color: rgba(255, 255, 255, .9);
+    letter-spacing: 1px;
+    color: $color_header;
+    &:hover {
+      color: #fff;
+    }
   }
+
   .action {
-    border: 2px solid #fff;
-    border-radius: 20px;
+    display: block;
+    padding: 0 20px;
+    border: 2px solid $color_header;
+    border-radius: 22px;
+    &:hover {
+      color: $background_header;
+      background: $color_header;
+    }
   }
 }
 
@@ -53,6 +69,12 @@
 }
 
 #footer {
-  color: #fff;
-  background: #603461;
+  color: $color_header;
+  background: $background_header;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
 }
