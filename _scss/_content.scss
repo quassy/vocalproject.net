@@ -4,6 +4,12 @@ html, body {
   font: 16px/2em $font_body;
   color: $color_body;
 }
+html {
+  background: $background_header;
+}
+body {
+  font: 1.125rem/2.25rem $font_body;
+}
 
 // Headings
 h1, h2, h3, h4, h5, h6,
@@ -77,8 +83,9 @@ hr {
   background: $color_borders;
   height: 1px;
   border: none;
-  padding: 0;
+  padding: 1rem 0;
   margin: 2rem 0;
+  clear: both;
 }
 
 // Lists
@@ -114,6 +121,27 @@ img {
   max-width: 100%;
 }
 
+// Floats
+.float-left {
+  float: left;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+.float-right {
+  float: right;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.clear-left {
+  clear: left;
+}
+.clear-right {
+  clear: right;
+}
+.clear {
+  clear: both;
+}
+
 .date {
   color: $color_subtle;
 }
@@ -136,9 +164,9 @@ th {
 // Selection
 ::-moz-selection {
   color: #fff;
-  background: $color_link;
+  background: $color_header;
 }
 ::selection {
   color: #fff;
-  background: $color_link;
+  background: $color_header;
 }
