@@ -6,7 +6,7 @@ layout: compress
 <head>
   {% include meta.html %}
 </head>
-<body class="site-{{ post.url }}">
+<body class="site-{{ post.url }} layout-{{ page.layout }}{{ post.layout }}">
 
   <header id="header">
     <h1><a href="{{ site.baseurl }}/" title="{{ site.description }}">{{ site.name }}</a></h1>
