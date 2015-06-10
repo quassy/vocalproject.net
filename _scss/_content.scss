@@ -200,10 +200,10 @@ th {
 
 // Selection
 ::-moz-selection {
-  color: #fff;
-  background: $color_header;
+  color: $color_header;
+  background: $background_header;
 }
 ::selection {
-  color: #fff;
-  background: $color_header;
+  color: $color_header;
+  background: $background_header;
 }

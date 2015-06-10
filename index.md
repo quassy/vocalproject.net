@@ -55,4 +55,4 @@ Vocal remembers exactly where you were in each episode, so it can start back rig
 
 Designed for
 
-<img class="center" src="{{ site.baseurl }}/images/home/elementary OS.png" />
+<a href="http://elementary.io"><img class="center" src="{{ site.baseurl }}/images/home/elementary OS.png" /></a>
