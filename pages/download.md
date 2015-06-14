@@ -102,6 +102,8 @@ Vocal 1.0 is already available in the Arch User Repository (AUR)! For more infor
 
 If you like to live on the wild side, use our daily PPA for more frequent, but less stable builds of Vocal. Simply copy and paste the following command into terminal (elementary OS Freya or similar systems):
 
-<code class="terminal">sudo apt-add-repository ppa:nathandyer/vocal-daily &&<br/>
-sudo apt-get update &&<br/>
-sudo apt-get install vocal</code>
+```
+sudo apt-add-repository ppa:nathandyer/vocal-daily &&
+sudo apt-get update &&
+sudo apt-get install vocal
+```

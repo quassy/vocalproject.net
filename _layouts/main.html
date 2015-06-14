@@ -6,10 +6,10 @@ layout: compress
 <head>
   {% include meta.html %}
 </head>
-<body class="site-{{ post.url }} layout-{{ page.layout }}{{ post.layout }}">
+<body class="page-{{ page.title | slugify }}">
 
   <header id="header">
-    <h1><a href="{{ site.baseurl }}/" title="{{ site.description }}">{{ site.name }}</a></h1>
+    <h1><a href="{{ site.baseurl }}/" title="{{ site.description | strip_html }}">{{ site.name }}</a></h1>
     <nav>
       <a href="{{ site.baseurl }}/">Home</a>
       <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>

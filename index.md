@@ -10,8 +10,7 @@ layout: page
 
 <h1>Features</h1>
 
-<div style="column-count:2;break-inside:avoid;column-gap:2rem;">
-<div>
+<div class="float-left half">
 <h2>Audio and Video Podcast Support</h2>
 
 Subscribe, browse, and listen to any podcast - audio or video.
@@ -29,7 +28,7 @@ Between native notifications, launcher count and progress bar support, system me
 Automatically create your library by importing existing libraries from iTunes, gPodder, and other podcast clients, or create a new library by adding your own feeds. Plus, should you decide to try something else, you can take all your data with you.
 
 </div>
-<div>
+<div class="float-right half">
 
 <h2>Streaming and Downloading</h2>
 
@@ -48,7 +47,6 @@ Never worry about old downloads filling up your hard disk! Vocal periodically cl
 Vocal remembers exactly where you were in each episode, so it can start back right where you left off.
 
 <h2>And much more...</h2>
-</div>
 </div>
 
 ---

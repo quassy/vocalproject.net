@@ -1,0 +1,44 @@
+body {
+  &.page-home {
+
+  }
+  &.page-starter-pack {
+    .button {
+      padding: 21px 34px;
+      margin: 0 auto;
+      color: #fff;
+      background-color: #272727;
+      font-size: 15px;
+      font-family: @font_heading;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      opacity: .8;
+      transition: opacity 0.1s linear 0s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    img {
+      height: 150px;
+    }
+    h1, h2, h3 {
+      clear: both;
+    }
+  }
+  &.page-blog {
+
+  }
+  &.page-get-involved {
+
+  }
+  &.page-documentation {
+
+  }
+  &.page-donate {
+
+  }
+  &.page-download {
+
+  }
+}
