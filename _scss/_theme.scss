@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    z-index: -1;
 
     .show, .hide {
       display: none;
@@ -35,7 +36,9 @@
   }
 
   h1 a,
-  nav a {
+  nav a,
+  .show,
+  .hide {
     line-height: 40px;
     text-transform: uppercase;
     text-decoration: none;
@@ -84,6 +87,9 @@
 
 // Mobile nav
 @include bp('s-') {
+  #menu {
+    transition: all 1s ease-in-out;
+  }
   #menu:target {
     margin: 0 250px 0 -250px;
     transition: all 1s ease-in-out;
