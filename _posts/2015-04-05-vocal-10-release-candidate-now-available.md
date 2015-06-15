@@ -12,7 +12,7 @@ Although Vocal is designed primarily for elementary OS it should also work well 
 
 The release candidate stage means that the first stable release is almost here! We believe Vocal is starting to feel pretty stable, so we want to get it in the hands of as many users as possible for them to kick the tires before we declare that it's ready for everyone. If you run into any issues [please report them here](https://bugs.launchpad.net/vocal) so we can fix any high-priority bugs before the release.
 
-Also, if you speak multiple languages [**please consider helping us translate Vocal!](https://translations.launchpad.net/vocal) We want as many people as possible to be able to use it in their own native language.
+Also, if you speak multiple languages [**please consider helping us translate Vocal!**](https://translations.launchpad.net/vocal) We want as many people as possible to be able to use it in their own native language.
 
 **Assuming the release candidate period goes well, we're aiming to release our final version on Sunday, April 19th.** If we get several critical bugs we may have to push that date back, but for now that's our goal.
 

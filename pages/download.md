@@ -7,7 +7,7 @@ permalink: /download/
 
 ## elementary OS Freya
 
-<img class="float-left" src="{{ site.baseurl }}/images/download/elementary.png" />
+<img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/elementary.png" />
 
 <table><tr>
   <td>
@@ -20,9 +20,9 @@ permalink: /download/
 
 You can also add our new stable PPA so you can easily install Vocal and get updates via Software Updater when they become available. Just paste the following command into the terminal:
 
-<code class="terminal">sudo apt-add-repository ppa:nathandyer/vocal-stable &&<br/>
-sudo apt-get update &&<br/>
-sudo apt-get install vocal</code>
+<pre><code class="terminal">sudo apt-add-repository ppa:nathandyer/vocal-stable &&
+sudo apt-get update &&
+sudo apt-get install vocal</code></pre>
 
 ## Other*
 
@@ -30,7 +30,7 @@ sudo apt-get install vocal</code>
 
 ### Ubuntu-based Systems
 
-<img class="float-left" src="{{ site.baseurl }}/images/download/ubuntu.png" />
+<img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/ubuntu.png" />
 
 <table><tr>
   <td>
@@ -62,7 +62,7 @@ sudo apt-get install vocal</code>
 
 ### Fedora (And Other Distros Using RPM Packages)
 
-<img class="float-left" src="{{ site.baseurl }}/images/download/fedora.png" />
+<img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/fedora.png" />
 
 <table><tr>
   <td>
@@ -88,13 +88,13 @@ sudo apt-get install vocal</code>
 
 ### Arch
 
-<img class="float-left" src="{{ site.baseurl }}/images/download/archlinux.svg" />
+<img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/archlinux.svg" />
 
 Vocal 1.0 is already available in the Arch User Repository (AUR)! For more information, please visit [this link for details of the package](https://aur.archlinux.org/packages/vocal-stable/).
 
 ## Source
 
-<img class="float-left" src="{{ site.baseurl }}/images/download/source.png" />
+<img class="float-left thumb-128" src="{{ site.baseurl }}/images/download/source.png" />
 
 [All Systems](http://sourceforge.net/projects/vocalpodcast/files/vocal_1.0.tar.gz/download)
 
@@ -102,8 +102,6 @@ Vocal 1.0 is already available in the Arch User Repository (AUR)! For more infor
 
 If you like to live on the wild side, use our daily PPA for more frequent, but less stable builds of Vocal. Simply copy and paste the following command into terminal (elementary OS Freya or similar systems):
 
-```
-sudo apt-add-repository ppa:nathandyer/vocal-daily &&
+<pre><code class="terminal">sudo apt-add-repository ppa:nathandyer/vocal-daily &&
 sudo apt-get update &&
-sudo apt-get install vocal
-```
+sudo apt-get install vocal</code></pre>

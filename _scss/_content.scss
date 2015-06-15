@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 2px;
   line-height: 1.2em;
   text-transform: uppercase;
+  clear: both;
 
   color: #1a1a1a;
 
@@ -116,6 +117,16 @@ strong, b {
 
 img {
   max-width: 100%;
+
+  &.thumb {
+    width: 150px;
+    box-sizing: content-box;
+  }
+  &.thumb-128 {
+    width: 128px;
+    box-sizing: content-box;
+  }
+
 }
 
 // Floats
@@ -138,12 +149,6 @@ img {
   width: 50%;
   text-align: center;
 }
-.clear-left {
-  clear: left;
-}
-.clear-right {
-  clear: right;
-}
 .clear {
   clear: both;
 }
@@ -151,7 +156,7 @@ img {
 // Posts
 .post {
   max-width: 700px;
-  margin: 8rem 0;
+  margin: 8rem auto;
   &:first-child {
     margin-top: 0;
   }
@@ -171,6 +176,41 @@ img {
 
 .date {
   color: $color_subtle;
+}
+.text-center {
+  text-align: center;
+}
+
+// Big fat "download starter pack" button
+.button {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #272727;
+  font-size: 1rem;
+  font-family: $font_heading;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  opacity: 1;
+  transition: opacity 0.1s linear 0s;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// Multicolumn content
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  > * {
+    flex-grow: 1;
+    margin-right: 4rem;
+  }
+  > last-child {
+    margin: 0;
+  }
 }
 
 // Tables

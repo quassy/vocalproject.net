@@ -10,11 +10,10 @@ Unfortunately, that fix led us to discover another bug, and this one is pretty c
 
 2. Open terminal and enter the following commands (or remove the folders using a file browser if you feel confident in navigating to hidden directories inside your home folder). **Please copy and paste these**, as entering them incorrectly could lead to potential data lose.
 
-```
+<code class="terminal"><pre>
 rm -rf ~/.config/vocal
-
 rm -rf ~/.local/share/vocal
-```
+</pre></code>
 
 3. Open Vocal again. Everything should be reset. Select the import option and choose the file you exported in step one.
 

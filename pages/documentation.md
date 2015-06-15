@@ -47,6 +47,8 @@ The bottom toolbar allows you to mark all episodes as played, to download all ep
 
 <div class="float-right clear half"><img src="{{ site.baseurl }}/images/documentation/sidebar-context-menu.png" /></div>
 
+
+
 If you wish to hide the sidebar you can press the hide button in the top right. Selecting another podcast by clicking on the coverart will make it appear again.
 
 You can also manually flag episodes as played or unplayed or manually delete downloaded files by right-clicking on the episodes and choosing the appropriate action. Advanced users can use the shift and control keys to select multiple episodes for bulk actions.
