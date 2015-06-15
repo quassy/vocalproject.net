@@ -10,7 +10,7 @@ layout: compress
 
   <header id="header">
     <h1><a href="{{ site.baseurl }}/" title="{{ site.description | strip_html }}">{{ site.name }}</a></h1>
-    <nav>
+    <nav id="menu">
       <a href="{{ site.baseurl }}/">Home</a>
       <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>
       <a href="{{ site.baseurl }}/blog/">Blog</a>
@@ -19,6 +19,8 @@ layout: compress
       <a href="{{ site.baseurl }}/donate/">Donate</a>
       <a href="{{ site.baseurl }}/download/"><span class="action">Download</span></a>
     </nav>
+    <a id="menu-show" href="#menu">Menu</a>
+    <a id="menu-hide" href="#">Menu</a>
   </header>
 
   <main id="main">

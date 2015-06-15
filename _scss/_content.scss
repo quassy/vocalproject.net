@@ -203,10 +203,9 @@ img {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   > * {
     flex-grow: 1;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
   > last-child {
     margin: 0;

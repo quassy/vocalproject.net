@@ -3,20 +3,13 @@
 .highlight {
   background-color: $base02;
   color: $base2;
-  padding: 5px 10px;
-  margin: 15px 0;
+  padding: .5rem 1rem;
+  margin: 2rem 0;
 }
 
-.highlight pre {
-  /* overflow: scroll; Prefer no word wrap? Uncomment this line and comment out the 2 lines below. */
-  word-break: break-all;
-  word-wrap: break-word;
-}
-
-code {
+pre {
   font-family: $font_code;
   margin: 2rem 0;
-  padding-left: 1rem;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
