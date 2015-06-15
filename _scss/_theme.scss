@@ -17,29 +17,20 @@
     padding: 0;
   }
 
-  #menu-show, #menu-hide {
-    display:none;
-  }
-
   nav {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 
+    .show, .hide {
+      display: none;
+    }
     @include bp('s-') {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 250px;
       flex-direction: column;
-      &:target {
-        display: flex;
-      }
-      &:target > .hide {
-        display: block;
-      }
-      &:not(:target) {
-        display: none;
-      }
-      &:not(:target) > .show {
-        display: block;
-      }
     }
   }
 
@@ -68,7 +59,7 @@
     &:hover {
       color: #fff;
     }
-    &.action {
+    &.action > * {
       display: block;
       padding: 0 20px;
       border: 2px solid $color_header;
@@ -86,6 +77,24 @@
     @include bp('s-') {
       &:not(.action) {
         line-height: 30px;
+      }
+    }
+  }
+}
+
+// Mobile nav
+@include bp('s-') {
+  #menu:target {
+    margin: 0 250px 0 -250px;
+    transition: all 1s ease-in-out;
+    pointer-events: none;
+    #header {
+      ponter-events: all;
+      &:target ~ .hide {
+        display: block;
+      }
+      &:not(:target) ~ .show {
+        display: block;
       }
     }
   }

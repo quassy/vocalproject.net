@@ -6,21 +6,21 @@ layout: compress
 <head>
   {% include meta.html %}
 </head>
-<body class="page-{{ page.title | slugify }}">
+<body id="menu" class="page-{{ page.title | slugify }}">
 
   <header id="header">
     <h1><a href="{{ site.baseurl }}/" title="{{ site.description | strip_html }}">{{ site.name }}</a></h1>
-    <nav id="menu">
-      <a class="show" href="#menu">Show Menu</a>
-      <a class="hide" href="#">Hide Menu</a>
+    <nav>
       <a class="home" href="{{ site.baseurl }}/">Home</a>
       <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>
       <a href="{{ site.baseurl }}/blog/">Blog</a>
       <a href="{{ site.baseurl }}/get-involved/">Get Involved</a>
       <a href="{{ site.baseurl }}/documentation/">Documentation</a>
       <a href="{{ site.baseurl }}/donate/">Donate</a>
-      <a class="action" href="{{ site.baseurl }}/download/"><span class="action">Download</span></a>
+      <a class="action" href="{{ site.baseurl }}/download/"><span>Download</span></a>
     </nav>
+    <a class="show" href="#menu">Show Menu</a>
+    <a class="hide" href="#">Hide Menu</a>
   </header>
 
   <main id="main">
