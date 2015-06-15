@@ -17,15 +17,15 @@
     padding: 0;
   }
 
+  .show, .hide {
+    display: none;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    z-index: -1;
 
-    .show, .hide {
-      display: none;
-    }
     @include bp('s-') {
       position: fixed;
       top: 0;
@@ -47,6 +47,9 @@
     font-weight: 600;
     font-family: $font_header;
     display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: $color_header;
   }
 
   h1 a {
@@ -56,9 +59,6 @@
   }
 
   nav a {
-    font-size: 13px;
-    letter-spacing: 1px;
-    color: $color_header;
     &:hover {
       color: #fff;
     }
@@ -87,21 +87,24 @@
 
 // Mobile nav
 @include bp('s-') {
-  #menu {
+  #menu:not(:target) {
     transition: all 1s ease-in-out;
+    .show {
+      display: block;
+    }
   }
   #menu:target {
     margin: 0 250px 0 -250px;
     transition: all 1s ease-in-out;
     pointer-events: none;
+    .hide {
+      display: block;
+    }
+    nav {
+      z-index: -1;
+    }
     #header {
       ponter-events: all;
-      &:target ~ .hide {
-        display: block;
-      }
-      &:not(:target) ~ .show {
-        display: block;
-      }
     }
   }
 }
