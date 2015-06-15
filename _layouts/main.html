@@ -11,16 +11,16 @@ layout: compress
   <header id="header">
     <h1><a href="{{ site.baseurl }}/" title="{{ site.description | strip_html }}">{{ site.name }}</a></h1>
     <nav id="menu">
-      <a href="{{ site.baseurl }}/">Home</a>
+      <a class="show" href="#menu">Show Menu</a>
+      <a class="hide" href="#">Hide Menu</a>
+      <a class="home" href="{{ site.baseurl }}/">Home</a>
       <a href="{{ site.baseurl }}/starter-pack/">Starter Pack</a>
       <a href="{{ site.baseurl }}/blog/">Blog</a>
       <a href="{{ site.baseurl }}/get-involved/">Get Involved</a>
       <a href="{{ site.baseurl }}/documentation/">Documentation</a>
       <a href="{{ site.baseurl }}/donate/">Donate</a>
-      <a href="{{ site.baseurl }}/download/"><span class="action">Download</span></a>
+      <a class="action" href="{{ site.baseurl }}/download/"><span class="action">Download</span></a>
     </nav>
-    <a id="menu-show" href="#menu">Menu</a>
-    <a id="menu-hide" href="#">Menu</a>
   </header>
 
   <main id="main">

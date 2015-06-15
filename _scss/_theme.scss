@@ -17,27 +17,27 @@
     padding: 0;
   }
 
+  #menu-show, #menu-hide {
+    display:none;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-
-    #menu-show, #menu-hide {
-      display:none;
-    }
 
     @include bp('s-') {
       flex-direction: column;
       &:target {
         display: flex;
       }
-      &:target ~ #menu-hide {
+      &:target > .hide {
         display: block;
       }
       &:not(:target) {
         display: none;
       }
-      &:not(:target) ~ #menu-show {
+      &:not(:target) > .show {
         display: block;
       }
     }
@@ -68,16 +68,25 @@
     &:hover {
       color: #fff;
     }
-  }
-
-  .action {
-    display: block;
-    padding: 0 20px;
-    border: 2px solid $color_header;
-    border-radius: 22px;
-    &:hover {
-      color: $background_header;
-      background: $color_header;
+    &.action {
+      display: block;
+      padding: 0 20px;
+      border: 2px solid $color_header;
+      border-radius: 22px;
+      &:hover {
+        color: $background_header;
+        background: $color_header;
+      }
+    }
+    @include bp('m') {
+      &.home {
+        display: none;
+      }
+    }
+    @include bp('s-') {
+      &:not(.action) {
+        line-height: 30px;
+      }
     }
   }
 }
