@@ -17,8 +17,8 @@
     padding: 0;
   }
 
-  .show, .hide {
-    display: none;
+  @include bp('s-') {
+    z-index: -1;
   }
 
   nav {
@@ -50,6 +50,9 @@
     font-size: 13px;
     letter-spacing: 1px;
     color: $color_header;
+  }
+  .show, .hide {
+    display: none;
   }
 
   h1 a {
@@ -100,11 +103,8 @@
     .hide {
       display: block;
     }
-    nav {
-      z-index: -1;
-    }
     #header {
-      ponter-events: all;
+      pointer-events: all;
     }
   }
 }
