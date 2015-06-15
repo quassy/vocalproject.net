@@ -22,7 +22,7 @@
     flex-direction: row;
     align-items: stretch;
 
-    @include bp('s-') {
+    @include bp('m-') {
       position: fixed;
       top: 0;
       right: 0;
@@ -74,12 +74,7 @@
         background: $color_header;
       }
     }
-    @include bp('m') {
-      &.home {
-        display: none;
-      }
-    }
-    @include bp('s-') {
+    @include bp('m-') {
       &:not(.action) {
         line-height: 30px;
       }
@@ -88,16 +83,16 @@
 }
 
 // Mobile nav
-@include bp('s-') {
+@include bp('m-') {
   #menu:not(:target) {
-    transition: all 1s ease-in-out;
+    transition: all .5s cubic-bezier(0.68,-0.55,0.27,1.55) 0s;
     .show {
       display: block;
     }
   }
   #menu:target {
     margin: 0 250px 0 -250px;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
     pointer-events: none;
     .hide {
       display: block;
