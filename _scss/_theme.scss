@@ -6,8 +6,11 @@
   background: $background_header;;
 
   clear: both;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
@@ -18,8 +21,11 @@
   }
 
   nav {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: row;
     flex-direction: row;
+    -webkit-align-items: stretch;
     align-items: stretch;
 
     @include bp('m-') {
@@ -27,6 +33,7 @@
       top: 0;
       right: 0;
       width: 250px;
+      -webkit-flex-direction: column;
       flex-direction: column;
       z-index: -1;
       overflow-y: auto;
@@ -138,8 +145,10 @@
     width: 2rem;
     height: 2rem;
     margin: 2rem 1rem 4rem 2rem;
+    transition: opacity .2s ease-in-out 0s;
   }
   &:hover a:not(:hover) {
     opacity: .5;
+    transition: opacity .2s ease-in-out 0s;
   }
 }
