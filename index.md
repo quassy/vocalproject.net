@@ -32,11 +32,11 @@ layout: page
   </figure>
 
   <div class="controls">
-    <a href="#item-1" class="control-button">•</a>
-    <a href="#item-2" class="control-button">•</a>
-    <a href="#item-3" class="control-button">•</a>
-    <a href="#item-4" class="control-button">•</a>
-    <a href="#item-5" class="control-button">•</a>
+    <a href="#item-1" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-2" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-3" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-4" class="control-button"><i class="fa fa-circle"></i></a>
+    <a href="#item-5" class="control-button"><i class="fa fa-circle"></i></a>
   </div>
 </div>
 
@@ -87,8 +87,8 @@ layout: page
   </div>
 </div>
 
----
+<hr />
 
-Designed for
+<h1>Designed for</h1>
 
 <a href="http://elementary.io"><img class="center" src="{{ site.baseurl }}/images/home/elementary OS.png" /></a>

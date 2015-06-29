@@ -672,8 +672,9 @@
 
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
+  margin: 0;
+  padding: .5rem;
+  font-size: 1.5rem;
   text-align: center;
   text-decoration: none;
   -webkit-transition: color .1s;
