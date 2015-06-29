@@ -85,7 +85,7 @@ An interview show that features long, candid conversations each week from a diff
 
 Hosted by Kevin Rose, formerly of Diggnation, this show features interviews with the founders of some of your favorite tech startups.
 
-[Website](http://foundation.kr)
+[Website](http://foundation.bz)
 
 [Audio Feed](http://foundation.squealingrat.org/feed/)
 
@@ -117,7 +117,7 @@ This podcast, hosted by Neil deGrasse Tyson, covers everything science related. 
 
 The best weekly tech news show around.
 
-[Website](http://www.theverge.com/verge/verge_archives/show?mode=EntryGroup&slug=the-vergecast)
+[Website](http://www.theverge.com/label/the-vergecast)
 
 [Audio Feed](http://feeds.feedburner.com/ThisIsMyNextPodcast)
 

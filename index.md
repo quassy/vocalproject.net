@@ -12,23 +12,23 @@ layout: page
   <div id="item-5" class="control-operator"></div>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-03-55.png" />
+    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-03-55.png" alt="playing video" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-05-26.png" />
+    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-05-26.png" alt="playing another video" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-07-43.png" />
+    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-07-43.png" alt="download menu" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-08-42.png" />
+    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-08-42.png" alt="cover view" />
   </figure>
 
   <figure class="item">
-    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-10-39.png" />
+    <img src="{{ site.baseurl }}/images/home/Screenshot+from+2015-04-04+22-10-39.png" alt="desktop screenshot with notification" />
   </figure>
 
   <div class="controls">
@@ -91,4 +91,4 @@ layout: page
 
 <h1>Designed for</h1>
 
-<a href="http://elementary.io"><img class="center" src="{{ site.baseurl }}/images/home/elementary OS.png" /></a>
+<a href="http://elementary.io"><img class="center" src="{{ site.baseurl }}/images/home/elementary OS.png" alt="elementary OS word mark" /></a>
