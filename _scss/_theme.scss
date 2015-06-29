@@ -64,6 +64,9 @@
     &:hover {
       color: #fff;
     }
+    &.action {
+      padding: 18px 20px;
+    }
     &.action > * {
       display: block;
       padding: 0 20px;
@@ -85,7 +88,7 @@
 // Mobile nav
 @include bp('m-') {
   #menu:not(:target) {
-    transition: all .5s cubic-bezier(0.68,-0.55,0.27,1.55) 0s;
+    transition: all .5s ease-in-out;
     .show {
       display: block;
     }
@@ -107,20 +110,34 @@
   width: auto;
   margin: 0 auto;
   max-width: 1020px;
-  padding: 96px 32px;
+  padding: 6rem 2rem;
+
+  @include bp('s-') {
+    padding: 2rem 1rem;
+  }
 }
 
 #footer {
   color: $color_header;
   background: $background_header;
+  font-size: 0;
+  text-align: center;
 
   clear: both;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
+
   a {
-    padding: 20px 10px;
+    margin: 2rem 1rem 4rem 2rem;
+    display: inline-block;
+
+    border-radius: 100%;
+
+    color: $background_header;
+    background: $color_header none repeat scroll 0% 0%;
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem 1rem;
+    padding: 1rem;
   }
 }
