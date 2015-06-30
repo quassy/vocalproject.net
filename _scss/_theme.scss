@@ -157,8 +157,13 @@
 
     width: 2rem;
     height: 2rem;
-    margin: 2rem 1rem 4rem 2rem;
+    margin: 2rem 1rem;
     transition: opacity .2s ease-in-out 0s;
+
+    @include bp('xs') {
+      margin: 2rem 0.5rem;
+    }
+
   }
   &:hover a:not(:hover) {
     opacity: .5;
