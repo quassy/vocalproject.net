@@ -195,6 +195,7 @@ iframe {
   font-weight: 600;
   opacity: 1;
   transition: opacity 0.1s linear 0s;
+  display: inline-block;
   &:hover {
     opacity: .8;
   }
