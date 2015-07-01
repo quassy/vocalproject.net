@@ -9,9 +9,9 @@ The number one question we get from users after installation is, “what are som
 
 # Download
 
-You can choose each feed individually below, or [download the entire pack here]({{ site.baseurl }}/s/Vocal-Podcast-Starter-Pack.opml). Just open Vocal and import the .opml file that you have downloaded.
+You can choose each feed individually below, or [download the entire pack here]({{ site.baseurl }}/pages/Vocal-Podcast-Starter-Pack.opml). Just open Vocal and import the .opml file that you have downloaded.
 
-<p style="text-align:center"><a class="button" href="{{ site.baseurl }}/s/Vocal-Podcast-Starter-Pack.opml">Download The Starter Pack Subscription File</a></p>
+<p style="text-align:center"><a class="button" href="{{ site.baseurl }}/pages/Vocal-Podcast-Starter-Pack.opml">Download The Starter Pack Subscription File</a></p>
 
 ---
 
